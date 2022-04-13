@@ -31,4 +31,4 @@ This is basic rest api for note taking.
 }
 ```
 
-- [ ] DELETE /delete/:id | This route deletes given note with id
+- [x] DELETE /delete/:id | This route deletes given note with id

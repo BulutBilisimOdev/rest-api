@@ -41,5 +41,13 @@ module.exports = {
 		notes[foundIndex].note = note;
 		return res.status(200).json(notes[foundIndex]);
 	},
-	deleteNote: async (req, res) => {},
+	deleteNote: async (req, res) => {
+		const { id } = req.params;
+
+		notes = notes.filter((x) => {
+			return x.id != id;
+		});
+
+		return res.status(200).json(notes);
+	},
 };
