@@ -32,3 +32,9 @@ This is basic rest api for note taking.
 ```
 
 - [x] DELETE /delete/:id | This route deletes given note with id
+
+## Setup and Usage
+
+- Run `npm install` for package installations.
+- Run `npm run dev` for serve backend in development mode on http://localhost:8081
+- Run `npm run start` for start backend in normal mode on http://localhost:8081
