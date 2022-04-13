@@ -13,7 +13,9 @@ module.exports = {
 		notes.push(newNote);
 		return res.status(201).json(notes);
 	},
-	getNotes: async (req, res) => {},
+	getNotes: async (_, res) => {
+		return res.status(200).json(notes);
+	},
 	getNoteById: async (req, res) => {},
 	updateNote: async (req, res) => {},
 	deleteNote: async (req, res) => {},
