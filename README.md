@@ -36,5 +36,5 @@ This is basic rest api for note taking.
 ## Setup and Usage
 
 - Run `npm install` for package installations.
-- Run `npm run dev` for serve backend in development mode on http://localhost:8081
-- Run `npm run start` for start backend in normal mode on http://localhost:8081
+- And then Run `npm run dev` for serve backend in development mode on http://localhost:8081
+- Or Run `npm run start` for start backend in normal mode on http://localhost:8081
