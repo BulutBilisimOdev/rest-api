@@ -11,7 +11,6 @@ This is basic rest api for note taking.
 ### Note Service:
 
 - [x] POST /create | This route create new note | Deployed: http://3.250.22.122:8081/create
-      Example body
 
 ```json
 //Example post body
